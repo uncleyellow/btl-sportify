@@ -1,7 +1,7 @@
 /*begin headder*/
 .headder{
     position: fixed;
-    background-color: orange;
+    background-color: #2d2d2d;
     top: 0;
     height: 15%;
     width: 100%;
@@ -19,10 +19,11 @@
 .headder-logo{
     text-decoration: none;
     color: rgb(8, 5, 5);
-    font-size: 4rem;
+    font-size: 3.5rem;
     position: relative;
     left: 1%;
     bottom: 10%;
+    color: #fff;
 }
 .headder-logo-name{
     font-size: 2rem;
@@ -36,8 +37,9 @@
     border-radius: 30px;
     height: 40px;
     width: 40px;
-    background-color: green;
-    color: red;
+    background-color: #181818;
+    color: #fff;
+    border: 1px solid #181818;
 }
 /*Login*/
 .headder-login{
@@ -47,29 +49,35 @@
 }
 .headder-btn-upgrade{
     display: flex;
-    font-size: 1.1rem;
+    font-size: 18px;
     height: 50%;
-    padding: 0;
-    border: 0;
+    padding: 0px;
     border-radius: 30px;
     position: relative;
     top: 25%;
     width: 150px;
     justify-content: center;
     align-items: center;
+    background-color: rgb(23, 9, 7);
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    left: 10%;
 }
 .headder-user{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: aqua;
+    background-color: #170907;
     border-radius: 20px;
     height: 50%;
     position: relative;
     top: 25%;
     padding-right: 15px;
     cursor: pointer;
+}
+.headder-user:hover{
+    background-color: #4e4e4e;
 }
 .headder-user:hover .headder-user-menu{
     display: block;
@@ -81,6 +89,11 @@
     position: relative;
     right: 2px;
 }
+.headder-user-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
 .headder-user-option{
     display: flex;
     justify-content: center;
@@ -89,6 +102,7 @@
 .headder-user-icon{
     padding-bottom: 12px;
     padding-left: 5px;
+    color: #fff;
 }
 .headder-user-menu{
     position: absolute;
@@ -99,7 +113,7 @@
     height: 160px;
     width: 200px;
     border-radius: 4px;
-    background-color: black;
+    background-color: #282828;
     overflow: hidden;
     display: none;
 }
@@ -109,14 +123,14 @@
     position: relative;
 }
 .headder-user-item:hover{
-    background-color: aqua;
+    background-color: #4e4e4e;
 }
 .headder-user-link{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    color: brown;
+    color: #fff;
     position: relative;
     top: 10px;
     padding-left: 5px;
@@ -129,9 +143,9 @@
 /*begin side-bar*/
 .side-bar{
     position: fixed;
-    background-color: blueviolet;
+    background-color: #000000;
     height: 70%;
-    width: 25%;
+    width: 20%;
     left: 0;
     bottom: 0;
     top: 15%;
@@ -143,16 +157,159 @@
     width: 25%;
     padding: 0;
 }
+.side-bar-item{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+}
+.side-bar-item:hover{
+    background-color: #807e7e;
+}
+.side-bar-link{
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    font-size: 1.4rem;
+    position: relative;
+    left: 10%;
+}
+.side-bar-use{
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    left: 12px;
+}
+.side-bar-item-plus-playlist{
+    position: relative;
+    top: 30px;
+}
+.side-bar-item-plus-playlist-border{
+    border-top: 1px solid #282828;
+}
+.side-bar-item-like{
+    position: relative;
+    top: 30px;
+}
+.side-bar-item-option{
+    position: relative;
+    top: 145px;
+}
 /*end side-bar*/
 
 /*begin container*/
 .container{
    position: relative;
-   background-color: blue;
-   width: 75%;
-   height: 1800px;
+   background-color: #282828;
+   width: 80%;
+   height: 12000px;
    float: right;
+   padding-top: 10%;
 }
+.container-headder{
+    color: #fff;
+    position: relative;
+    left: 5%;
+    bottom: 2%;
+    width: 80%;
+}
+.container-playlist{
+    display: flex;
+    justify-content: space-around;
+}
+.container-playlist:last-child{
+    padding-top: 5%;
+}
+.container-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 330px;
+    height: 80px;
+    background-color: #2d2b2a;
+    position: relative;
+    left: 0%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.container-player:hover{
+    background-color: #807e7e;
+}
+.container-player-img{
+    height: 80px;
+}
+.container-player-name{
+    position: relative;
+    font-size: 1.2rem;
+    color: #fff;
+    right: 10%;
+}
+.container-player-icon{
+    position: relative;
+    font-size: 2.4rem;
+    color: green;
+    right: 5%;
+}
+.container-music{
+    position: relative;
+    top: 2%;
+}
+.container-music-headder{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+.container-music-theme{
+    position: relative;
+    left: 5%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.container-music-all{
+    position: relative;
+    right: 5%;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #808080;
+}
+/*container-showtime begin*/
+.container-showtime{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+.container-item{
+    text-decoration: none;
+    height: 270px;
+    width: 190px;
+    background-color: #161616;
+    color: #fff;
+    border-radius: 5px;
+}
+.container-item:hover{
+    background-color: #4e4e4e;
+}
+.container-item-img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border-radius: 5px;
+}
+.container-item-music{
+    position: relative;
+    top: 25px;
+    font-size: 1.2rem;
+    left: 20px;
+}
+.container-item-singer{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+/*container-showtime end*/
 /*end container*/
 
 
@@ -160,7 +317,7 @@
 /*begin footer*/
 .footer{
     position: fixed;
-    background-color: black;
+    background-color: #181818;
     width: 100%;
     bottom: 0;
     height: 15%;
