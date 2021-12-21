@@ -1,0 +1,168 @@
+/*begin headder*/
+.headder{
+    position: fixed;
+    background-color: orange;
+    top: 0;
+    height: 15%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+}
+.headder-home{
+    display: flex;
+    font-size: 3rem;
+    padding-left: 10px;
+    width: 65%;
+    position: relative;
+    top: 25%;
+}
+.headder-logo{
+    text-decoration: none;
+    color: rgb(8, 5, 5);
+    font-size: 4rem;
+    position: relative;
+    left: 1%;
+    bottom: 10%;
+}
+.headder-logo-name{
+    font-size: 2rem;
+    float: right;
+    padding-top: 10%;
+    padding-left: 15px;
+}
+.headder-btn{
+    position: relative;
+    left: 20%;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    color: red;
+}
+/*Login*/
+.headder-login{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+.headder-btn-upgrade{
+    display: flex;
+    font-size: 1.1rem;
+    height: 50%;
+    padding: 0;
+    border: 0;
+    border-radius: 30px;
+    position: relative;
+    top: 25%;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.headder-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: aqua;
+    border-radius: 20px;
+    height: 50%;
+    position: relative;
+    top: 25%;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.headder-user:hover .headder-user-menu{
+    display: block;
+}
+.headder-user-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    position: relative;
+    right: 2px;
+}
+.headder-user-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headder-user-icon{
+    padding-bottom: 12px;
+    padding-left: 5px;
+}
+.headder-user-menu{
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    padding: 0;
+    margin: 0;
+    height: 160px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: black;
+    overflow: hidden;
+    display: none;
+}
+.headder-user-item{
+    list-style: none;
+    height: 40px;
+    position: relative;
+}
+.headder-user-item:hover{
+    background-color: aqua;
+}
+.headder-user-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: brown;
+    position: relative;
+    top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.1rem;
+}
+/*end headder*/
+
+
+/*begin side-bar*/
+.side-bar{
+    position: fixed;
+    background-color: blueviolet;
+    height: 70%;
+    width: 25%;
+    left: 0;
+    bottom: 0;
+    top: 15%;
+}
+.side-bar-menu{
+    position: fixed;
+    margin: 0;
+    display: block;
+    width: 25%;
+    padding: 0;
+}
+/*end side-bar*/
+
+/*begin container*/
+.container{
+   position: relative;
+   background-color: blue;
+   width: 75%;
+   height: 1800px;
+   float: right;
+}
+/*end container*/
+
+
+
+/*begin footer*/
+.footer{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    height: 15%;
+}
+/*end footer*/
