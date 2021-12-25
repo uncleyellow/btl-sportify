@@ -321,5 +321,95 @@
     width: 100%;
     bottom: 0;
     height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-play{
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color: #fff;
+}
+.footer-play-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+    left: 2%;
+}
+.footer-song{
+    font-size: 18px;
+    position: relative;
+    left: 3%;
+}
+.footer-song-singer{
+    font-size: 15px;
+}
+.footer-like-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5%;
+    height: 100%;
+    position: relative;
+    right: 15%;
+}
+.footer-like-option-btn{
+    background-color: transparent;
+    border: 0;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.footer-use{
+    display: flex;
+    position: relative;
+    right: 12%;
+    justify-content: space-between;
+    width: 15%;
+    align-items: center;
+}
+.footer-use-btn{
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    bottom: 10%;
+}
+.footer-use-icon{
+    font-size: 1.1rem;
+    color: #4e4e4e;
+}
+.footer-use-icon-play{
+    color: #fff;
+    font-size: 2.2rem;
+}
+.footer-play-progress{
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    bottom: 0;
+}
+.footer-sing{
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+    position: relative;
+    right: 10%;
+}
+.footer-sing-btn{
+    background-color: transparent;
+    border: 0;
+}
+.footer-sing-icon{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.footer-volume{
+    background-color: #181818;
+    position: relative;
+    top: 40%;
 }
 /*end footer*/
