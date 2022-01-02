@@ -367,7 +367,8 @@
 .footer-use{
     display: flex;
     position: relative;
-    right: 12%;
+    margin-left: 0px;
+    right: -27%;
     justify-content: space-between;
     width: 15%;
     align-items: center;
@@ -394,10 +395,13 @@
 }
 .progress-area {
     height: 6px;
-    width: 100%;
+    width: 43%;
+    right: 24%;
+    margin-top: 90px;
     border-radius: 40px;
     background: #f0f0f0;
     cursor: pointer;
+    margin-right: 393px;
   }
   .progress-area .progress-bar {
     height: inherit;
