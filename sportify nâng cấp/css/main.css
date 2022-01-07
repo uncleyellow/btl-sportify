@@ -410,6 +410,23 @@
     border-radius: inherit;
     background: linear-gradient(90deg, var(--pink) 0%, var(--violet) 100%);
   }
+ .progress-area .song-timer{
+      color: white;
+
+  }
+  .current-time{
+    top: 94%;
+    position: fixed;
+    right: 74%;
+
+  }
+  .max-duration{
+    padding-left: 659px;
+    position: fixed;
+    top: 94%;
+    right: 31%;
+
+  }
 .footer-sing{
     display: flex;
     justify-content: space-between;
