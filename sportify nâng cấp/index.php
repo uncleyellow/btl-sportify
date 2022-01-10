@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php
 session_start();
-//tiến hành kiểm tra là người dùng đã đăng nhập hay chưa
 if (!isset($_SESSION['username'])) {
 	 header('Location: login.php');
 }
