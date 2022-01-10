@@ -110,14 +110,6 @@ if (!isset($_SESSION['username'])) {
                     </div>
                 </a>
             </li>
-            <!-- <li class="side-bar-item">
-                <a href="#" class="side-bar-link">
-                    <i class="side-bar-icon fas fa-search"></i>
-                    <div class="side-bar-use">
-                        Tìm kiếm
-                    </div>
-                </a>
-            </li> -->
             <li class="side-bar-item">
                 <a href="#" class="side-bar-link">
                     <i class="side-bar-icon fas fa-book"></i>
