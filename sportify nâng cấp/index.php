@@ -35,12 +35,6 @@ if (!isset($_SESSION['username'])) {
             <div class="headder-search">
                 <input type="text" class="headder-search">
             </div>
-            <!-- <button class="headder-btn headder-btn-active">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            <button class="headder-btn">
-                <i class="fas fa-chevron-right"></i>
-            </button> -->
         </div>
         <div class="headder-login">
             <a href="model/login.php" class="headder-btn-upgrade">
