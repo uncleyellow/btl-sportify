@@ -14,3 +14,9 @@
         echo '<script src="../js/demnguoc.js" charset="utf-8"></script>';
         exit;
     }
+ if (mysqli_num_rows(mysqli_query($con,"SELECT email FROM user WHERE email='$email'")) > 0)
+    {
+        echo 'Email này đã có người dùng. Vui lòng chọn Email khác. <a href="javascript: history.go(-1)">Trở lại</a> sau... <span id="time"></span>';
+        echo '<script src="../js/demnguoc.js" charset="utf-8"></script>';
+        exit;
+    }
