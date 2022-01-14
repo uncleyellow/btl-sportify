@@ -16,3 +16,9 @@ if (mysqli_num_rows($result)==1) {
             header("location:../index.php");
             exit();
         }
+ else
+        {
+            echo 'Sai tên đăng nhập hoặc mật khẩu. Vui lòng thử lại. <a href="javascript: history.go(-1)">Trở lại</a> sau... <span id="time"></span>';
+            echo '<script src="../js/demnguoc.js" charset="utf-8"></script>';
+            exit;
+        }
