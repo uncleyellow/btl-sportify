@@ -1,1 +1,12 @@
-
+.form-control {
+    box-shadow: none;
+    font-weight: normal;
+    font-size: 13px;
+}
+.form-control:focus {
+    border-color: #33cabb;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.navbar-header.col {
+    padding: 0 !important;
+}
