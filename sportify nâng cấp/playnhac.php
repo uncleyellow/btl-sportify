@@ -65,4 +65,5 @@
 		<div style="clear: both"></div>
 		</main>
 		</div>
+	<script src="./js/AudioPlayer.js"></script>
 
