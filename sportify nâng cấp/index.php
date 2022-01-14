@@ -25,3 +25,10 @@
         </div>
         <hr>
         <div class="row" id="listchude">
+            <?php
+                require('./php/connect.php');
+                $sql = "SELECT * FROM chude";
+                $result = mysqli_query($con,$sql);
+                while($row = mysqli_fetch_assoc($result)){
+                $tenchude = $row['tenchude'];
+                $image=$row['image'];
