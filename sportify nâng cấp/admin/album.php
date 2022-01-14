@@ -37,3 +37,19 @@
                         </tr>
                     </tfoot>
                     <tbody>
+ <?php
+                        include('../php/connect.php');
+                        $stt=1;
+                        $result = mysqli_query($con,"Select * from album");
+                        While($data = mysqli_fetch_assoc($result))
+                        {
+                            echo "<tr>";
+                            echo "<td style='width:50px;'>$stt</td>";
+                            echo "<td>$data[tenalbum]</td>";
+                            echo "<td style='width:120px;'><a href='./suaalbum.php?id=$data[id]' style='color:#09F;'>Sửa</a></td>";
+                            echo "<td style='width:120px;'><a href='./del_album.php?id=$data[id]' onclick=' return xacnhan();' style='color:red;'>Xoá</a></td>";
+                            echo "</tr>";
+                            $stt++;
+                        }
+                        mysqli_close($con);
+                    ?>
