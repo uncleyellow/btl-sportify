@@ -24,3 +24,17 @@
                     <h3>BẢNG XẾP HẠNG</h3>
                 </div>
                 <hr>
+                <div class="list-group">
+                    <ul id="listbaihat" class="p-0" style="list-style:none;">
+                        <li><a href="./playnhac.php?id=8"
+                                class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                                <span>
+                                    <img class="float-left mr-2" src="./image/ckp.jpg" width="50px">
+                                </span>
+                                <div class="item_title font-weight-bold" style="color:#b3b3b3">Ngắm hoa lệ rơi</div>
+                                <div class="box_items">
+
+                                    <span>
+                                        <span style="font-size:13px;color:#b3b3b3">Châu khải phong</span>
+                                    </span>
+                                </div>
