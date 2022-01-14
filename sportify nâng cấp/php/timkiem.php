@@ -60,3 +60,22 @@ $tenbaihat = $row['tenbaihat'];
                                 </span>
                             </div>
                         </a></li>';
+}
+                    mysqli_close($con);
+                ?>
+                </ul>
+                </div>
+            </div>
+          
+        </div>
+                
+            </div>
+            <div style="clear: both"></div>
+        </main>
+        <?php
+        include('./php/footer.php');
+        ?>
+    </div>
+</body>
+
+</html>
