@@ -8,3 +8,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
+    <body>
+    <?php
+        session_start();
+        include('header.php');
+    ?>
+    <main class="col-md-10 m-auto">
+    <div class="mt-3 mb-2 text-center"><a href="./thembaihat.php" class="btn btn-primary">Thêm bài hát</a></div>
+    <div class="card mb-3 mt-3">
