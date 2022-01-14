@@ -109,5 +109,10 @@
                                 </span>
                                 <div class="item_title font-weight-bold"style="color:#b3b3b3">Âm Thầm Bên Em</div>
                                 <div class="box_items">
+                                     <span>
+                                        <span style="font-size:13px;color:#b3b3b3">Sơn tùng MTP</span>
+                                    </span>
+                                </div>
+                            </a></li>
 
 
