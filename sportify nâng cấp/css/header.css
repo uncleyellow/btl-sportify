@@ -81,3 +81,16 @@
     outline: none;
     background: #161616;
 }
+.navbar .navbar-right li:first-child a {
+    padding-right: 30px;
+}
+.navbar .nav-item i {
+    font-size: 18px;
+}
+.navbar .dropdown-item i {
+    font-size: 16px;
+    min-width: 22px;
+}
+.navbar ul.nav li.active a, .navbar ul.nav li.open > a {
+    background: transparent !important;
+}
