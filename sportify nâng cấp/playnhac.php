@@ -79,4 +79,9 @@
             autoPlay : false,
             notification: false,
 			playList: [";
+	echo "{'icon': iconImage, 'title': '$rown1[tenbaihat]', 'file': './$rown1[path]' ,'idbh': '$rown1[id]'},";
+		while($rown=mysqli_fetch_assoc($sql)){
+			echo "
+				{'icon': iconImage, 'title': '$rown[tenbaihat]', 'file': './$rown[path]' ,'idbh': '$rown[id]'},";
+		}
 
