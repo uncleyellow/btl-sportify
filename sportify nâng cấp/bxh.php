@@ -114,5 +114,12 @@
                                     </span>
                                 </div>
                             </a></li>
+                        <li><a href="./playnhac.php?id=8"
+                                class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                                <span>
+                                    <img class="float-left mr-2" src="./image/anh16.jpg" width="50px">
+                                </span>
+                                <div class="item_title font-weight-bold"style="color:#b3b3b3">Chắc Ai Đó Sẽ Về</div>
+                                <div class="box_items">
 
 
