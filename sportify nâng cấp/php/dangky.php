@@ -29,3 +29,13 @@
         'cost' => 12
     ];
     $hash = password_hash($password, PASSWORD_DEFAULT, $options);
+@$addmember = mysqli_query($con,"
+    INSERT INTO user(username, PASSWORD, email)
+    VALUE
+        (
+            '{$username}',
+            '{$hash}',
+            '{$email}'
+        )
+    ");
+      echo "Quá trình đăng ký thành công.<a href='../index.php'>Về trang chủ</a>";
