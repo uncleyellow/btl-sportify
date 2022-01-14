@@ -10,3 +10,9 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
+         <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+            <ul class="nav navbar-nav">
+                <li class="nav-item mr-5"><a href="./user.php" class="nav-link"><b>Tài khoản</b></a></li>
+                <li class="nav-item mr-5"><a href="./baihat.php" class="nav-link"><b>Bài hát</b></a></li>
+                <li class="nav-item mr-5"><a href="./album.php" class="nav-link"><b>Album</b></a></li>
+            </ul>
