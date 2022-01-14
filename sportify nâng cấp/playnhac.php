@@ -56,4 +56,13 @@
 					</div>
 				</a></li>';
 			}
+				mysqli_close($con);
+		?>
+		</ul>
+		</div>
+		
+		</div>
+		<div style="clear: both"></div>
+		</main>
+		</div>
 
