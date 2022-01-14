@@ -53,3 +53,13 @@
                         }
                         mysqli_close($con);
                     ?>
+      </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-footer small text-muted">Updated by Admin</div>
+    </div>
+    </main>
+    <?php
+        include('footer.php');
+    ?>
