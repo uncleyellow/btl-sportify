@@ -71,3 +71,17 @@
         <div class="card-footer small text-muted">Updated by Admin</div>
     </div>
     </main>
+ <?php
+        include('footer.php');
+    ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/xacnhan.js"></script>
+    <script src="js/jquery.dataTables.js"></script>
+    <script src="js/dataTables.bootstrap4.js"></script>
+    <script>
+        $('#dataTable').DataTable();
+    </script>
+</body>
+
+</html>
