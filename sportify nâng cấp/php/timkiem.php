@@ -41,3 +41,14 @@ $keyword = $_POST['keyword'];
                     $sql = "SELECT * FROM v_baihat WHERE tenbaihat like '%$keyword%'";
                     $result = mysqli_query($con,$sql);
                     while($row = mysqli_fetch_assoc($result)){
+$tenbaihat = $row['tenbaihat'];
+                        $anh = $row['image'];
+                        $casi = $row['tencasi'];
+                        $luotnghe = $row['luotnghe'];
+                        echo '<li><a href="./playnhac.php?id='.$row['id'].'" class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                            <span>
+                                <img class="float-left mr-2" src="./'.$anh.'" width="50px">
+                            </span>
+                            <div class="item_title font-weight-bold">'.$tenbaihat.'</div>
+                            <div class="box_items">
+                                <span class="item_span mr-5">
