@@ -43,3 +43,12 @@
 .navbar .nav li a {
     color: #888;
 }
+.search-box {
+    position: relative;
+}
+.search-box input {
+    padding-right: 35px;
+    border-color: #dfe3e8;
+    border-radius: 4px !important;
+    box-shadow: none
+}
