@@ -138,3 +138,33 @@
     margin-bottom: 15px;
     font-size: 13px;
 }
+.navbar .form-wrapper .social-btn .btn, .navbar .form-wrapper .social-btn .btn:hover {
+    color: #fff;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 13px;
+    border: none;
+    transition: all 0.4s;
+    text-align: center;
+    line-height: 34px;
+    width: 47%;
+    text-decoration: none;
+}
+.navbar .social-btn .btn-primary {
+    background: #507cc0;
+}
+.navbar .social-btn .btn-primary:hover {
+    background: #4676bd;
+}
+.navbar .social-btn .btn-info {
+    background: #64ccf1;
+}
+.navbar .social-btn .btn-info:hover {
+    background: #4ec7ef;
+}
+.navbar .social-btn .btn i {
+    margin-right: 5px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
