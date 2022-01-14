@@ -26,3 +26,14 @@
                 </table>
             </div>
         </div>
+         <div class="card-footer small text-muted">Updated by Admin</div>
+    </div>
+    </main>
+        <?php
+        include('footer.php');
+    }
+    else{
+        header("location:../index.php");
+        exit();
+    }
+?>
