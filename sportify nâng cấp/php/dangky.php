@@ -9,3 +9,8 @@
       echo '<script src="../js/demnguoc.js" charset="utf-8"></script>';
       exit;
     }
+ if (mysqli_num_rows(mysqli_query($con,"SELECT userName FROM user WHERE userName='$username'")) > 0){
+        echo 'Tên đăng nhập này đã có người dùng. Vui lòng chọn tên đăng nhập khác. <a href="javascript: history.go(-1)">Trở lại</a> sau... <span id="time"></span>';
+        echo '<script src="../js/demnguoc.js" charset="utf-8"></script>';
+        exit;
+    }
