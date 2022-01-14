@@ -84,4 +84,7 @@
 			echo "
 				{'icon': iconImage, 'title': '$rown[tenbaihat]', 'file': './$rown[path]' ,'idbh': '$rown[id]'},";
 		}
+	echo "]
+        });
+	</script>";
 
