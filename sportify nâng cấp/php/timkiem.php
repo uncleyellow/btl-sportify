@@ -18,3 +18,11 @@
             border-bottom:#eee;
             font-weight: bold;
         }
+</style>
+</head>
+
+<body>
+    <div class="container-fullwidth" style="padding-top:5%;">
+        <?php
+        session_start();
+        include('./php/header.php');
