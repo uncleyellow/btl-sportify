@@ -97,5 +97,10 @@
                                 </span>
                                 <div class="item_title font-weight-bold"style="color:#b3b3b3">Buông Đôi Tay Nhau Ra</div>
                                 <div class="box_items">
+                                     <span>
+                                        <span style="font-size:13px;color:#b3b3b3">Sơn Tùng M-TP</span>
+                                    </span>
+                                </div>
+                            </a></li>
 
 
