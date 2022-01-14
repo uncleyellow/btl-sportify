@@ -32,3 +32,9 @@
                 while($row = mysqli_fetch_assoc($result)){
                 $tenchude = $row['tenchude'];
                 $image=$row['image'];
+                  echo '<div class="col-lg-3 col-md-4 img-hover">
+                    <a href="p_baihat.php?id='.$row['id'] .'" class="d-block mb-4 h-100" style="text-decoration: none;">
+                    <div><img class="img-fluid img-thumbnail " src='.$image.' alt=""></div>
+                    </a>
+                </div>';
+                }
