@@ -38,3 +38,11 @@
                     </a>
                 </div>';
                 }
+              mysqli_close($con);
+                    ?>
+                </div>
+                <div class="text-md-left mt-3">
+                    <h4 style="color: #282828;">
+                        TUYỂN TẬP HÀNG ĐẦU CỦA BẠN
+                    </h4>
+                </div>
