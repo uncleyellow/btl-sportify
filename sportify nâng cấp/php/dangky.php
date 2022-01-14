@@ -20,3 +20,12 @@
         echo '<script src="../js/demnguoc.js" charset="utf-8"></script>';
         exit;
     }
+ function generate_token() {
+        return md5(microtime().mt_rand());
+    }
+
+    $options = [
+        'salt' => generate_token(),
+        'cost' => 12
+    ];
+    $hash = password_hash($password, PASSWORD_DEFAULT, $options);
