@@ -87,4 +87,6 @@
 	echo "]
         });
 	</script>";
+	mysqli_close($con);
+	?>
 
