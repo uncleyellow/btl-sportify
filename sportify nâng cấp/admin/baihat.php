@@ -30,3 +30,17 @@
                             <th>Ngày đăng</th>
                             <th>Xoá</th>
                         </tr>
+ </thead>
+                    <tfoot>
+                        <tr>
+                        <th >STT</th>
+                            <th>Tên Bài Hát</th>
+                            <th>Lượt Nghe</th>
+                            <th>Ca sĩ</th>
+                            <th>Album</th>
+                            <th>Chủ đề</th>
+                            <th>Ngày đăng</th>
+                            <th>Xoá</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
