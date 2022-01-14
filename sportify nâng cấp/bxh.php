@@ -38,3 +38,17 @@
                                         <span style="font-size:13px;color:#b3b3b3">Châu khải phong</span>
                                     </span>
                                 </div>
+                            </a></li>
+                        <li><a href="./playnhac.php?id=12"
+                                class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                                <span>
+                                    <img class="float-left mr-2" src="./image/20229817.jpg" width="50px">
+                                </span>
+                                <div class="item_title font-weight-bold"style="color:#b3b3b3">Thằng điên</div>
+                                <div class="box_items">
+
+                                    <span>
+                                        <span style="font-size:13px;color:#b3b3b3">Justa Tee</span>
+                                    </span>
+                                </div>
+                            </a></li>
