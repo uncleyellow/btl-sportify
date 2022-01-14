@@ -52,3 +52,11 @@ $tenbaihat = $row['tenbaihat'];
                             <div class="item_title font-weight-bold">'.$tenbaihat.'</div>
                             <div class="box_items">
                                 <span class="item_span mr-5">
+<img src="./image/views.png" width="18px">
+                                    <span style="font-size:13px;">'.$luotnghe.'</span>
+                                </span>
+                                <span>
+                                    <span style="font-size:13px;">'.$casi.'</span>
+                                </span>
+                            </div>
+                        </a></li>';
