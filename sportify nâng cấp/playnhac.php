@@ -89,4 +89,5 @@
 	</script>";
 	mysqli_close($con);
 	?>
+	<script language="javascript">
 
