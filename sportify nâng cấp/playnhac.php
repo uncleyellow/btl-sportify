@@ -66,4 +66,9 @@
 		</main>
 		</div>
 	<script src="./js/AudioPlayer.js"></script>
+	<?php
+		include('./php/connect.php');
+		$sql1=mysqli_query($con,"select*from v_baihat where id='$id'");
+		$rown1=mysqli_fetch_assoc($sql1);
+		$sql=mysqli_query($con,"SELECT * FROM v_baihat WHERE idalbum = '$rown1[idalbum]' AND id != '$id' ORDER BY ngaydang DESC LIMIT 20");
 
