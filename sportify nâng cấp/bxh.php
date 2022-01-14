@@ -18,3 +18,9 @@
         session_start();
         include('./php/header.php');
         ?>
+         <main class="col-md-11 m-auto">
+            <div class="left col-md-8 float-left" Style="MAX-WIDTH: 11129PX;">
+                <div class="text-md-left mt-5">
+                    <h3>BẢNG XẾP HẠNG</h3>
+                </div>
+                <hr>
