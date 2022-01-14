@@ -22,3 +22,8 @@ if (mysqli_num_rows($result)==1) {
             echo '<script src="../js/demnguoc.js" charset="utf-8"></script>';
             exit;
         }
+ }else {
+      echo "Tài khoản không tồn tại. <a href='../index.php'>Về trang chủ</a>";
+    }
+    mysqli_close($con);
+?>
