@@ -70,3 +70,11 @@
                                 <span>
                                     <img class="float-left mr-2" src="./image/dl.jpg" width="50px">
                                 </span>
+                            <div class="item_title font-weight-bold"style="color:#b3b3b3">Thu cuối</div>
+                                <div class="box_items">
+
+                                    <span>
+                                        <span style="font-size:13px;color:#b3b3b3">MR.T</span>
+                                    </span>
+                                </div>
+                            </a></li>
