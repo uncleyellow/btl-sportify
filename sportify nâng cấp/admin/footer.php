@@ -14,3 +14,13 @@
               </a> <a href="#">
                 <i class="d-block fa fa-twitter text-muted fa-lg ml-2"></i>
               </a> </div>
+  </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mt-2 mb-0">© 2018-2019 wru. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+</footer>
