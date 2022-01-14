@@ -66,3 +66,18 @@
     color: #a0a5b1;
     font-size: 19px;
 }
+.navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
+    color: #fff;
+    background: #090909;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.navbar .nav .btn-primary:hover, .navbar .nav .btn-primary:focus {
+    color: #fff;
+    outline: none;
+    background: #161616;
+}
