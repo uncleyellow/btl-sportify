@@ -23,3 +23,9 @@
 		include('./php/header.php');
 		$id=$_GET['id'];
         ?>
+		<main class="col-md-11 m-auto">
+				<div id='player' class="position-relative h-100">
+				</div>
+			<div class="text-md-left mt-5">
+			</div>
+			<hr>
