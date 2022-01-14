@@ -126,4 +126,11 @@
                                     </span>
                                 </div>
                             </a></li>
+                        <li><a href="./playnhac.php?id=9"
+                                class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                                <span>
+                                    <img class="float-left mr-2" src="./image/140354.jpg" width="50px">
+                                </span>
+                                <div class="item_title font-weight-bold"style="color:#b3b3b3">Dưới Những Cơn Mưa</div>
+                                <div class="box_items">
 
