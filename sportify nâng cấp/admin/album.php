@@ -28,3 +28,12 @@
                             <th>Xoá</th>
                         </tr>
                     </thead>
+ <tfoot>
+                        <tr>
+                            <th>STT</th>
+                            <th>Tên album</th>
+                            <th>Sửa</th>
+                            <th>Xoá</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
