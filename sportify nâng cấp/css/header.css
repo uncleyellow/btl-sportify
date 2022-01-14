@@ -37,3 +37,9 @@
 .navbar .form-inline {
     display: inline-block;
 }
+.navbar .nav li {
+    position: relative;
+}
+.navbar .nav li a {
+    color: #888;
+}
