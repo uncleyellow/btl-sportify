@@ -12,4 +12,9 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 </head>
-</html>
+<body>
+    <div class="container-fullwidth" style="padding-top:2%;">
+        <?php
+        session_start();
+        include('./php/header.php');
+        ?>
