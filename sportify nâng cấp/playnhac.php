@@ -16,3 +16,10 @@
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 </head>
+<body>
+	<div class="container-fullwidth" style="padding-top:3%;">
+		<?php
+        session_start();
+		include('./php/header.php');
+		$id=$_GET['id'];
+        ?>
