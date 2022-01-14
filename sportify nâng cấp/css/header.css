@@ -30,3 +30,10 @@
     font-size: 20px;
     padding-right: 50px;
 }
+.navbar .navbar-brand b {
+    font-weight: bold;
+    color: #0a0a0a;
+}
+.navbar .form-inline {
+    display: inline-block;
+}
