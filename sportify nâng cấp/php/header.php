@@ -11,3 +11,24 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
+<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+            <ul class="nav navbar-nav">
+                <li class="nav-item mr-5"><a href="./user.php" class="nav-link"><b>Tài khoản</b></a></li>
+                <li class="nav-item mr-5"><a href="./baihat.php" class="nav-link"><b>Bài hát</b></a></li>
+                <li class="nav-item mr-5"><a href="./album.php" class="nav-link"><b>Album</b></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right ml-auto mr-3">
+                    <?php
+                        echo '<li class="nav-item">
+                         <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Chào,&nbsp;'.$_SESSION['userName'].'</a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                          <li><a href="./admin.php" class="dropdown-item">Trang quản trị</a></li>
+                          <li><a href="../php/xulydangxuat.php" class="dropdown-item">Đăng Xuất</a></li>
+                        </ul>
+                    </li>';
+                    ?>
+            </ul>
+        </div>
+    </nav>
+
+</header>
