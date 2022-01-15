@@ -58,3 +58,10 @@
                                     <span style="font-size:13px;">'.$casi.'</span>
                                 </span>
                             </div>
+  </a></li>';
+                    }
+                    mysqli_close($con);
+                ?>
+                </ul>
+                </div>
+            </div>
