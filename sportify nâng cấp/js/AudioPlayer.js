@@ -107,4 +107,36 @@ var AudioPlayer = (function() {
     settings = extend(settings, options);
 
     document.querySelector(settings.container).insertBefore(player, null);
+      playBtn        = player.querySelector('.ap-toggle-btn');
+    prevBtn        = player.querySelector('.ap-prev-btn');
+    nextBtn        = player.querySelector('.ap-next-btn');
+    repeatBtn      = player.querySelector('.ap-repeat-btn');
+    volumeBtn      = player.querySelector('.ap-volume-btn');
+    plBtn          = player.querySelector('.ap-playlist-btn');
+    curTime        = player.querySelector('.ap-time--current');
+    durTime        = player.querySelector('.ap-time--duration');
+    trackTitle     = player.querySelector('.ap-title');
+    progressBar    = player.querySelector('.ap-bar');
+    preloadBar     = player.querySelector('.ap-preload-bar');
+    volumeBar      = player.querySelector('.ap-volume-bar');
+
+    playList = settings.playList;
+
+    playBtn.addEventListener('click', playToggle, false);
+    volumeBtn.addEventListener('click', volumeToggle, false);
+    repeatBtn.addEventListener('click', repeatToggle, false);
+
+    progressBar.parentNode.parentNode.addEventListener('mousedown', handlerBar, false);
+    progressBar.parentNode.parentNode.addEventListener('mousemove', seek, false);
+    document.documentElement.addEventListener('mouseup', seekingFalse, false);
+
+    volumeBar.parentNode.parentNode.addEventListener('mousedown', handlerVol, false);
+    volumeBar.parentNode.parentNode.addEventListener('mousemove', setVolume);
+    document.documentElement.addEventListener('mouseup', seekingFalse, false);
+
+    prevBtn.addEventListener('click', prev, false);
+    nextBtn.addEventListener('click', next, false);
+
+
+    apActive = true;
 
