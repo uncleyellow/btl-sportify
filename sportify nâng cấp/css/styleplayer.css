@@ -270,3 +270,17 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
 
         background-color: cornflowerblue;
     }
+55% {
+        height: 0%;
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+
+        background-color: cornflowerblue;
+    }
+    60% {
+        height: 40%;
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+
+        background-color: cornflowerblue;
+    }
