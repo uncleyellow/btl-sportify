@@ -16,3 +16,8 @@
         session_start();
         include('./php/header.php');
         ?>
+ <main class="col-md-11 m-auto">
+                <div class="text-md-left mt-5">
+                    <h3>Album</h3>
+                <hr>
+                <div class="row" id="listbaihat">
