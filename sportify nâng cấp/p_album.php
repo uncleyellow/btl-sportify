@@ -21,3 +21,11 @@
         ?>
  <main class="col-md-11 m-auto">
                 < class="text-md-left mt-5">
+<?php 
+                    $id = $_GET["id"];
+                    require('./php/connect.php');
+                    $resultcd = mysqli_query($con,"SELECT tenalbum FROM album where id = '$id'");
+                    $rowcd = mysqli_fetch_assoc($resultcd);
+                    mysqli_close($con);
+                    echo "<h3>Album $rowcd[tenalbum]</h3>";
+                    ?>
