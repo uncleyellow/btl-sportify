@@ -139,4 +139,34 @@ var AudioPlayer = (function() {
 
 
     apActive = true;
+      renderPL();
+    plBtn.addEventListener('click', plToggle, false);
+
+    // Create audio object
+    audio = new Audio();
+    audio.volume = settings.volume;
+
+
+
+    if(isEmptyList()) {
+      empty();
+      return;
+    }
+
+    audio.src = playList[index].file;
+    audio.preload = 'auto';
+    trackTitle.innerHTML = playList[index].title;
+    volumeBar.style.height = audio.volume * 100 + '%';
+    volumeLength = volumeBar.css('height');
+
+    audio.addEventListener('error', error, false);
+    audio.addEventListener('timeupdate', update, false);
+    audio.addEventListener('ended', doEnd, false);
+
+    if(settings.autoPlay) {
+      audio.play();
+      playBtn.classList.add('playing');
+      plLi[index].classList.add('pl-current');
+    }
+  }
 
