@@ -88,5 +88,23 @@ var AudioPlayer = (function() {
     notification: false,
     playList : []
   };
+ function init(options) {
 
+    if(!('classList' in document.documentElement)) {
+      return false;
+    }
+
+    player = create('div', {
+      'className': 'ap',
+      'id': 'ap',
+      'innerHTML': aphtml
+    });
+
+    if(apActive || player === null) {
+      return;
+    }
+
+    settings = extend(settings, options);
+
+    document.querySelector(settings.container).insertBefore(player, null);
 
