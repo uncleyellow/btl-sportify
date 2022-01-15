@@ -59,3 +59,19 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     -webkit-animation-delay: 3.70s;
     animation-delay: 3.70s;
 }
+.container-audio .colum1:nth-of-type(4) .row {
+    -webkit-animation-delay: 3.60s;
+    animation-delay: 3.60s;
+}
+.container-audio .colum1:nth-of-type(5) .row {
+    -webkit-animation-delay: 3.50s;
+    animation-delay: 3.50s;
+}
+.container-audio .colum1:nth-of-type(6) .row {
+    -webkit-animation-delay: 3.40s;
+    animation-delay: 3.40s;
+}
+.container-audio .colum1:nth-of-type(7) .row {
+    -webkit-animation-delay: 3.30s;
+    animation-delay: 3.30s;
+}
