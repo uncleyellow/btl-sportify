@@ -21,3 +21,8 @@
                     <h3>Album</h3>
                 <hr>
                 <div class="row" id="listbaihat">
+ <?php
+                    require('./php/connect.php');
+                    $sql = "SELECT * FROM album";
+                    $result = mysqli_query($con,$sql);
+                    while($row = mysqli_fetch_assoc($result)){
