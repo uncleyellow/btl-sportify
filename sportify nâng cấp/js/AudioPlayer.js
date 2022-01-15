@@ -169,4 +169,37 @@ var AudioPlayer = (function() {
       plLi[index].classList.add('pl-current');
     }
   }
+function renderPL() {
+      var html = [];
+      var tpl =
+        '<li data-track="{count}">'+
+          '<div class="pl-number">'+
+            '<div class="pl-count">'+
+              '<i class="material-icons">audiotrack</i>'+
+            '</div>'+
+            '<div class="pl-playing">'+
+              '<div class="eq">'+
+                '<div class="eq-bar"></div>'+
+                '<div class="eq-bar"></div>'+
+                '<div class="eq-bar"></div>'+
+              '</div>'+
+            '</div>'+
+          '</div>'+
+          '<div class="pl-title">{title}</div>'+
+          '<button class="pl-remove">'+
+              '<i class="material-icons">delete</i>'+
+          '</button>'+
+        '</li>';
+
+      playList.forEach(function(item, i) {
+        html.push(
+          tpl.replace('{count}', i).replace('{title}', item.title)
+        );
+      });
+
+      pl = create('div', {
+        'className': 'pl-container hide',
+        'id': 'pl',
+        'innerHTML': !isEmptyList() ? '<ul class="pl-list">' + html.join('') + '</ul>' : '<div class="pl-empty">PlayList is empty</div>'
+      });
 
