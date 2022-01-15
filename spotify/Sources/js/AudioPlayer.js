@@ -255,7 +255,7 @@ var AudioPlayer = (function() {
                 empty();
               }
               else {
-                // audio.currentTime = 0;
+             
                 audio.src = playList[index].file;
                 document.title = trackTitle.innerHTML = playList[index].title;
                 progressBar.style.width = 0;
@@ -435,7 +435,7 @@ var AudioPlayer = (function() {
 
     var barlength = Math.round(audio.currentTime * (100 / audio.duration));
     progressBar.style.width = barlength + '%';
-    // Dem luot nghe
+    
     if(barlength==75){
       luotnghe();
     }
@@ -547,11 +547,7 @@ var AudioPlayer = (function() {
             notice.close();
           }, 5000);
         }
-        // notice.onclose = function() {
-        //   if(noticeTimer) {
-        //     clearTimeout(noticeTimer);
-        //   }
-        // }
+       
       }
     })
   }
