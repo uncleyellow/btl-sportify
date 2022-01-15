@@ -93,14 +93,6 @@
 	mysqli_close($con);
 	?>
 	<script language="javascript">
-        $('.yclogin').on('click', function(){
-            alert('Bạn phải đăng nhập để sử dụng chức năng này!');
-        });
-		$(".thugon").shorten({
-			"showChars" : 160,
-			"moreText"  : "Xem thêm",
-			"lessText"  : "Rút gọn",
-		});
 		$.ajax({
 			url : "./php/showinfo.php",
 			type : "post",
