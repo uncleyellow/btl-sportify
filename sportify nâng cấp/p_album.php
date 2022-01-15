@@ -64,3 +64,10 @@
             </div>
             <div style="clear: both"></div>
         </main>
+ <?php
+        include('./php/footer.php');
+        ?>
+    </div>
+</body>
+
+</html>
