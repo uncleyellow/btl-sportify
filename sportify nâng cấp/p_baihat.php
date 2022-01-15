@@ -21,3 +21,10 @@
  <main class="col-md-11 m-auto">
                 <div class="text-md-left mt-5">
                 <?php 
+ 		$id = $_GET["id"];
+                    require('./php/connect.php');
+                    $resultcd = mysqli_query($con,"SELECT tenchude FROM chude where id = '$id'");
+                    $rowcd = mysqli_fetch_assoc($resultcd);
+                    mysqli_close($con);
+                    echo "<h3>Chủ đề $rowcd[tenchude]</h3>";
+                    ?>
