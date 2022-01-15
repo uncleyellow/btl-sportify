@@ -90,4 +90,29 @@
 	mysqli_close($con);
 	?>
 	<script language="javascript">
+		$.ajax({
+			url : "./php/showinfo.php",
+			type : "post",
+			dataType:"text",
+			data : {
+					id:<?php echo $id ?>
+			},
+			success : function (result){
+				$('.dshow').html(result);
+			}
+		});
+	</script>
+</body>
+</html>
+
+<style>
+	#listbaihat{
+		height: 500px;
+		overflow: scroll;
+	}
+
+	#listbaihat	 li a{
+		width: 100% !important;
+	}
+</style>	
 
