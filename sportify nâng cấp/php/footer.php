@@ -18,3 +18,6 @@
           </div>
       </div>
       <div class="row">
+       <div class="col-md-12 text-center">
+          <p class="mt-2 mb-0">© Bản quyền 2022 SPORTIFY</p>
+       </div>
