@@ -51,3 +51,9 @@
                                     <img src="./image/views.png" width="18px">
                                     <span style="font-size:13px;">'.$luotnghe.'</span>
                                 </span>
+ 				<span>
+                                    <span style="font-size:13px;">'.$casi.'</span>
+                                </span>
+                            </div>
+                        </a></li>';
+                    }
