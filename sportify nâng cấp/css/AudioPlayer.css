@@ -38,3 +38,112 @@ button {
   max-width: 1440px;
   margin: 0 auto;
 }
+.ap-panel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ap-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ap--track {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 40%;
+      -ms-flex: 1 40%;
+          flex: 1 40%;
+  padding: 0 20px;
+}
+.ap-info {
+  width: 100%;
+  position: relative;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  padding: 5px 0 0;
+}
+.ap-title {
+  position: relative;
+  overflow: hidden;
+  padding-right: 80px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ap-time {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+.ap-progress-container {
+  padding: 5px 0 10px;
+  cursor: pointer;
+}
+.ap-progress {
+  position: relative;
+  height: 3px;
+  border-radius: 5px;
+  background: rgba(0,0,0,.2);
+}
+.ap-preload-bar,
+.ap-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  border-radius: 5px 0 0 5px;
+  background: rgba(0,0,0,.3);
+  z-index: 999;
+}
+.ap-bar {
+  background: #f50;
+  z-index: 9999;
+}
+.ap-bar:after {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 12px;
+  height: 12px;
+  margin-top: -4px;
+  content: '';
+  border-radius: 6px;
+  background: #f50;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+.ap-progress-container:hover .ap-bar:after {
+  opacity: 1;
+}
+
+.ap-controls {
+  position: relative;
+  z-index: 1000;
+  display: block;
+  height: 50px;
+  cursor: pointer;
+  -webkit-transition: background .2s ease;
+  transition: background .2s ease;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  background: none;
+}
