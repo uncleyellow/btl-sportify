@@ -64,3 +64,8 @@
             </div>
             <div class="right col-md-4 float-right">
             </div>
+<div style="clear: both"></div>
+        </main>
+        <?php
+        include('./php/footer.php');
+        ?>
