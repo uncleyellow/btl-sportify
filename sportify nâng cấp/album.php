@@ -35,3 +35,13 @@
                                 </a>
                             </div>';
                     }
+  mysqli_close($con);
+                    ?>
+                </div>
+            </div>
+            <?php
+        include('./php/footer.php');
+        ?>
+</body>
+
+</html>
