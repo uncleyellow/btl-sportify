@@ -57,3 +57,10 @@
                             </div>
                         </a></li>';
                     }
+  mysqli_close($con);
+                ?>
+                </ul>
+                </div>
+            </div>
+            <div class="right col-md-4 float-right">
+            </div>
