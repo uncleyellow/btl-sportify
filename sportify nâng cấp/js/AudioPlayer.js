@@ -55,4 +55,38 @@ var AudioPlayer = (function() {
     '      </div>'+
     '    </div>'+
     '  </div>';
+    var
+  player,
+  playBtn,
+  prevBtn,
+  nextBtn,
+  plBtn,
+  repeatBtn,
+  volumeBtn,
+  progressBar,
+  preloadBar,
+  curTime,
+  durTime,
+  trackTitle,
+  audio,
+  index = 0,
+  playList,
+  volumeBar,
+  volumeLength,
+  repeating = false,
+  seeking = false,
+  rightClick = false,
+  apActive = false,
+
+  pl,
+  plLi,
+
+  settings = {
+    container: 'body',
+    volume   : 0.5,
+    autoPlay : false,
+    notification: false,
+    playList : []
+  };
+
 
