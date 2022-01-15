@@ -15,10 +15,7 @@ button {
 }
 
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.75); }
-/*------------------------
-    Audio Player - AP
-------------------------*/
-/* Player and control panel */
+
 .ap {
   position: fixed;
   right: 0;
@@ -138,7 +135,7 @@ button {
   opacity: 1;
 }
 
-/* Buttons */
+
 .ap-controls {
   position: relative;
   z-index: 1000;
@@ -252,7 +249,7 @@ button {
   -webkit-animation: blink 1.5s linear infinite;
           animation: blink 1.5s linear infinite;
 }
-/* --------------------------- */
+
 
 @media(max-width:880px) {
   .ap-item > .ap-controls {
@@ -298,9 +295,7 @@ button {
             order: 2;
   }
 }
-/*--------------------
-  PlayList
---------------------*/
+
 .pl-container {
   position: absolute;
   top: 0;
