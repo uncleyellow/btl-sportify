@@ -18,3 +18,6 @@
         session_start();
         include('./php/header.php');
         ?>
+ <main class="col-md-11 m-auto">
+                <div class="text-md-left mt-5">
+                <?php 
