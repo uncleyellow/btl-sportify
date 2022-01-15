@@ -6,3 +6,12 @@
             <li class="nav-item"> <a class="nav-link active" href="./index.php">Home</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
           </ul>
+         <div class="row">
+            <div class="col-md-12 d-flex align-items-center justify-content-md-between justify-content-center my-2"> <a href="#">
+                <i class=""></i>
+              </a> <a href="#">
+                <i class=""></i>
+              </a> <a href="#">
+                <i class=""></i>
+              </a> </div>
+          </div>
