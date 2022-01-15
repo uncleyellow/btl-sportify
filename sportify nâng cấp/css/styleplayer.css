@@ -151,3 +151,27 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     -webkit-animation-delay: 3.40s;
     animation-delay: 3.40s;
 }
+.container-audio .colum1:nth-of-type(27) .row {
+    -webkit-animation-delay: 3.30s;
+    animation-delay: 3.30s;
+}
+.container-audio .colum1:nth-of-type(28) .row {
+    -webkit-animation-delay: 3.20s;
+    animation-delay: 3.20s;
+}
+.container-audio .colum1:nth-of-type(29) .row {
+    -webkit-animation-delay: 3.10s;
+    animation-delay: 3.10s;
+}
+.container-audio .colum1:nth-of-type(30) .row {
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+.container-audio .colum1:nth-of-type(31) .row {
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+.container-audio .colum1:nth-of-type(32) .row {
+    -webkit-animation-delay: 2.10s;
+    animation-delay: 2.10s;
+}
