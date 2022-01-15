@@ -123,3 +123,15 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     -webkit-animation-delay: 1.80s;
     animation-delay: 1.80s;
 }
+.container-audio .colum1:nth-of-type(20) .row {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.container-audio .colum1:nth-of-type(21) .row {
+    -webkit-animation-delay: 3.99s;
+    animation-delay: 3.99s;
+}
+.container-audio .colum1:nth-of-type(22) .row {
+    -webkit-animation-delay: 3.80s;
+    animation-delay: 3.80s;
+}
