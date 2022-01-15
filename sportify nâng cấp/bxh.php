@@ -138,4 +138,51 @@
                                     </span>
                                 </div>
                             </a></li>
+                        <li><a href="./playnhac.php?id=17"
+                                class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                                <span>
+                                    <img class="float-left mr-2" src="./image/a3.jpg" width="50px">
+                                </span>
+                                <div class="item_title font-weight-bold"style="color:#b3b3b3">Còn gì đau hơn chữ đã từng</div>
+                                <div class="box_items">
+
+                                    <span>
+                                        <span style="font-size:13px;color:#b3b3b3">Quân AP</span>
+                                    </span>
+                                </div>
+                            </a></li>
+                        <li><a href="./playnhac.php?id=12"
+                                class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                                <span>
+                                    <img class="float-left mr-2" src="./image/anh172.jpg" width="50px">
+                                </span>
+                                <div class="item_title font-weight-bold"style="color:#b3b3b3">Chiếc xe màu xanh</div>
+                                <div class="box_items">
+
+                                    <span>
+                                        <span style="font-size:13px;color:#b3b3b3">wowy</span>
+                                    </span>
+                                </div>
+                            </a></li>
+                        <li><a href="./playnhac.php?id=12"
+                                class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                                <span>
+                                    <img class="float-left mr-2" src="./image/167.jpg" width="50px">
+                                </span>
+                                <div class="item_title font-weight-bold"style="color:#b3b3b3">Mãi Mãi Bên Nhau</div>
+                                <div class="box_items">
+
+                                    <span>
+                                        <span style="font-size:13px;color:#b3b3b3">Noo Phước Thịnh</span>
+                                    </span>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <?php
+        include('./php/footer.php');
+        ?>
+</body>
+</html>
 
