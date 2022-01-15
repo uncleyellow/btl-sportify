@@ -36,3 +36,8 @@
                     require('./php/connect.php');
                     $sql = "SELECT * FROM v_baihat where idalbum = '$id'" ;
                     $result = mysqli_query($con,$sql);
+ 		    while($row = mysqli_fetch_assoc($result)){
+                        $tenbaihat = $row['tenbaihat'];
+                        $anh = $row['image'];
+                        $casi = $row['tencasi'];
+                        $luotnghe = $row['luotnghe'];
