@@ -135,3 +135,19 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     -webkit-animation-delay: 3.80s;
     animation-delay: 3.80s;
 }
+.container-audio .colum1:nth-of-type(23) .row {
+    -webkit-animation-delay: 3.70s;
+    animation-delay: 3.70s;
+}
+.container-audio .colum1:nth-of-type(24) .row {
+    -webkit-animation-delay: 3.60s;
+    animation-delay: 3.60s;
+}
+.container-audio .colum1:nth-of-type(25) .row {
+    -webkit-animation-delay: 3.50s;
+    animation-delay: 3.50s;
+}
+.container-audio .colum1:nth-of-type(26) .row {
+    -webkit-animation-delay: 3.40s;
+    animation-delay: 3.40s;
+}
