@@ -29,3 +29,6 @@
                     mysqli_close($con);
                     echo "<h3>Album $rowcd[tenalbum]</h3>";
                     ?>
+ <hr>
+                <div class="list-group">
+                <ul id="listbaihat" class="p-0" style="list-style:none;">
