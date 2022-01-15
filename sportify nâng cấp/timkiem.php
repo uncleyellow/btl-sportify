@@ -20,3 +20,14 @@
         }
     </style>
 </head>
+	<body>
+    <div class="container-fullwidth" style="padding-top:5%;">
+        <?php
+        session_start();
+        include('./php/header.php');
+        $keyword = $_POST['keyword'];
+        ?>
+        <main class="col-md-11 m-auto">
+                <div class="text-md-left mt-3">
+                    <h4>Kết quả tìm kiếm cho '<?php echo $keyword?>'</h4>
+                <hr>
