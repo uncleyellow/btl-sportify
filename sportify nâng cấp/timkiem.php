@@ -31,3 +31,7 @@
                 <div class="text-md-left mt-3">
                     <h4>Kết quả tìm kiếm cho '<?php echo $keyword?>'</h4>
                 <hr>
+ <div class="tab-content bg-white rounded-bottom">
+            <div id="home" class="container tab-pane active rounded-bottom" style="background:#eee"><br>
+            <div class="list-group">
+                <ul id="listbaihat" class="p-0" style="list-style:none;">
