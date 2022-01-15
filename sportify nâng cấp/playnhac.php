@@ -16,6 +16,7 @@
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 </head>
+
 <body>
 	<div class="container-fullwidth" style="padding-top:3%;">
 		<?php
@@ -40,15 +41,15 @@
 				$anh = $row['image'];
 				$casi = $row['tencasi'];
 				$luotnghe = $row['luotnghe'];
-			echo '<li><a href="./playnhac.php?id='.$row['id'].'" class="list-group-item list-group-item-action flex-column align-items-start mb-2">
-				<span>
-					<img class="float-left mr-2" src="./'.$anh.'" width="50px">
-				</span>
-				<div class="item_title font-weight-bold">'.$tenbaihat.'</div>
-				<div class="box_items">
-			<span class="item_span mr-5">
-						<img src="./image/views.png" width="18px">
-						<span style="font-size:13px;">'.$luotnghe.'</span>
+				echo '<li><a href="./playnhac.php?id='.$row['id'].'" class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+					<span>
+						<img class="float-left mr-2" src="./'.$anh.'" width="50px">
+					</span>
+					<div class="item_title font-weight-bold">'.$tenbaihat.'</div>
+					<div class="box_items">
+						<span class="item_span mr-5">
+							<img src="./image/views.png" width="18px">
+							<span style="font-size:13px;">'.$luotnghe.'</span>
 						</span>
 						<span>
 							<span style="font-size:13px;">'.$casi.'</span>
@@ -56,7 +57,7 @@
 					</div>
 				</a></li>';
 			}
-				mysqli_close($con);
+			mysqli_close($con);
 		?>
 		</ul>
 		</div>
@@ -65,13 +66,14 @@
 		<div style="clear: both"></div>
 		</main>
 		</div>
+	
 	<script src="./js/AudioPlayer.js"></script>
 	<?php
 		include('./php/connect.php');
 		$sql1=mysqli_query($con,"select*from v_baihat where id='$id'");
 		$rown1=mysqli_fetch_assoc($sql1);
 		$sql=mysqli_query($con,"SELECT * FROM v_baihat WHERE idalbum = '$rown1[idalbum]' AND id != '$id' ORDER BY ngaydang DESC LIMIT 20");
-	echo "<script>
+		echo "<script>
         var iconImage = null;
         AP.init({
             container:'#player',
@@ -79,17 +81,26 @@
             autoPlay : false,
             notification: false,
 			playList: [";
-	echo "{'icon': iconImage, 'title': '$rown1[tenbaihat]', 'file': './$rown1[path]' ,'idbh': '$rown1[id]'},";
+			echo "{'icon': iconImage, 'title': '$rown1[tenbaihat]', 'file': './$rown1[path]' ,'idbh': '$rown1[id]'},";
 		while($rown=mysqli_fetch_assoc($sql)){
 			echo "
 				{'icon': iconImage, 'title': '$rown[tenbaihat]', 'file': './$rown[path]' ,'idbh': '$rown[id]'},";
 		}
-	echo "]
+         echo "]
         });
 	</script>";
+	
 	mysqli_close($con);
 	?>
 	<script language="javascript">
+        $('.yclogin').on('click', function(){
+            alert('Bạn phải đăng nhập để sử dụng chức năng này!');
+        });
+		$(".thugon").shorten({
+			"showChars" : 160,
+			"moreText"  : "Xem thêm",
+			"lessText"  : "Rút gọn",
+		});
 		$.ajax({
 			url : "./php/showinfo.php",
 			type : "post",
@@ -115,4 +126,3 @@
 		width: 100% !important;
 	}
 </style>	
-
