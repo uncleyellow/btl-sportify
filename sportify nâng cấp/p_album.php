@@ -32,3 +32,7 @@
  <hr>
                 <div class="list-group">
                 <ul id="listbaihat" class="p-0" style="list-style:none;">
+<?php
+                    require('./php/connect.php');
+                    $sql = "SELECT * FROM v_baihat where idalbum = '$id'" ;
+                    $result = mysqli_query($con,$sql);
