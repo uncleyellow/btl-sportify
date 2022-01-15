@@ -1,1 +1,40 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.hide {
+  display: none !important;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
 
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.75); }
+
+.ap {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #333;
+  background: #f1f1f1;
+  border-top: 1px solid #ccc;
+  z-index: 9999;
+}
+.ap-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
