@@ -57,7 +57,7 @@ var AudioPlayer = (function() {
     '  </div>';
 
 
-  // Player vars
+  
   var
   player,
   playBtn,
@@ -80,10 +80,10 @@ var AudioPlayer = (function() {
   seeking = false,
   rightClick = false,
   apActive = false,
-  // playlist vars
+ 
   pl,
   plLi,
-  // settings
+
   settings = {
     container: 'body',
     volume   : 0.5,
@@ -112,7 +112,7 @@ var AudioPlayer = (function() {
 
     document.querySelector(settings.container).insertBefore(player, null);
 
-    // get player elements
+ 
     playBtn        = player.querySelector('.ap-toggle-btn');
     prevBtn        = player.querySelector('.ap-prev-btn');
     nextBtn        = player.querySelector('.ap-next-btn');
@@ -146,11 +146,11 @@ var AudioPlayer = (function() {
 
     apActive = true;
 
-    // Create playlist
+   
     renderPL();
     plBtn.addEventListener('click', plToggle, false);
 
-    // Create audio object
+    
     audio = new Audio();
     audio.volume = settings.volume;
 
@@ -178,9 +178,7 @@ var AudioPlayer = (function() {
     }
   }
 
-/**
- *  PlayList methods
- */
+
     function renderPL() {
       var html = [];
       var tpl =
@@ -288,9 +286,7 @@ var AudioPlayer = (function() {
     }
 
 
-/**
- *  Player methods
- */
+
   function error() {
     !isEmptyList() && next();
   }
@@ -560,7 +556,7 @@ var AudioPlayer = (function() {
     })
   }
 
-/* Destroy method. Clear All */
+
   function destroy() {
     if(!apActive) return;
 
@@ -585,7 +581,6 @@ var AudioPlayer = (function() {
     audio.removeEventListener('ended', doEnd, false);
     player.parentNode.removeChild(player);
 
-    // Playlist
     pl.removeEventListener('click', listHandler, false);
     pl.parentNode.removeChild(pl);
 
@@ -594,9 +589,7 @@ var AudioPlayer = (function() {
   }
 
 
-/**
- *  Helpers
- */
+
   function extend(defaults, options) {
     for(var name in options) {
       if(defaults.hasOwnProperty(name)) {
@@ -642,9 +635,7 @@ var AudioPlayer = (function() {
   };
 
 
-/**
- *  Public methods
- */
+
   return {
     init: init,
     destroy: destroy
