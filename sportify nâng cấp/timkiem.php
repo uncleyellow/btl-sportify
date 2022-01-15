@@ -35,3 +35,16 @@
             <div id="home" class="container tab-pane active rounded-bottom" style="background:#eee"><br>
             <div class="list-group">
                 <ul id="listbaihat" class="p-0" style="list-style:none;">
+ <?php
+                    require('./php/connect.php');
+                    $sql = "SELECT * FROM v_baihat WHERE tenbaihat like '%$keyword%'";
+                    $result = mysqli_query($con,$sql);
+                    while($row = mysqli_fetch_assoc($result)){
+                        $tenbaihat = $row['tenbaihat'];
+                        $anh = $row['image'];
+                        $casi = $row['tencasi'];
+                        $luotnghe = $row['luotnghe'];
+                        echo '<li><a href="./playnhac.php?id='.$row['id'].'" class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                            <span>
+                                <img class="float-left mr-2" src="./'.$anh.'" width="50px">
+                            </span>
