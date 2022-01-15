@@ -28,3 +28,6 @@
                     mysqli_close($con);
                     echo "<h3>Chủ đề $rowcd[tenchude]</h3>";
                     ?>
+  		   <hr>
+                <div class="list-group">
+                <ul id="listbaihat" class="p-0" style="list-style:none;">
