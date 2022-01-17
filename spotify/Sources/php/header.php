@@ -59,7 +59,7 @@
                                 Chào,&nbsp;'.$_SESSION['userName'].'
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-right">
-                                  <li><a href="./admin/admin.php" class="dropdown-item">Trang quản trị</a></li>
+                                  <li><a href="./admin/user.php" class="dropdown-item">Trang quản trị</a></li>
                                   <li><a href="./php/xulydangxuat.php" class="dropdown-item">Đăng Xuất</a></li>
                                 </ul>
                             </li>';
